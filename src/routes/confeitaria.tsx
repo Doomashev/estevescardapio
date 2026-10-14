@@ -5,10 +5,10 @@ import { validateMenuSearch } from "@/lib/menu-data";
 export const Route = createFileRoute("/confeitaria")({
   validateSearch: validateMenuSearch,
   head: () => ({ meta: [
-    { title: "Santo Antônio Pães & Pizzas | Bolos & doces" },
-    { name: "description", content: "Conheça os bolos da Santo Antônio Pães & Pizzas: chocolate, cenoura, fubá e coco. Um pedaço de felicidade em cada receita." },
-    { property: "og:title", content: "Santo Antônio Pães & Pizzas | Bolos & doces" },
-    { property: "og:description", content: "Do chocolate intenso ao bolo caseiro. Descubra sua próxima pausa doce na Santo Antônio Pães & Pizzas." },
+    { title: "Esteves | Bolos & doces" },
+    { name: "description", content: "Conheça os bolos da Esteves: chocolate, cenoura, fubá e coco. Um pedaço de felicidade em cada receita." },
+    { property: "og:title", content: "Esteves | Bolos & doces" },
+    { property: "og:description", content: "Do chocolate intenso ao bolo caseiro. Descubra sua próxima pausa doce na Esteves." },
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
   ] }),
